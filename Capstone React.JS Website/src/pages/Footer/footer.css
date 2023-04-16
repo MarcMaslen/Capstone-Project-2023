@@ -1,0 +1,175 @@
+.footer-container{
+    height: 35vh;
+    background-color: rgb(34, 39, 74);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
+    position: absolute;
+    width:100%;
+}
+
+.footer-container .footer-sections{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer-container .footer-sections .footer-right{
+    height: 100%;
+    width: 34%;
+}
+
+.footer-container .footer-middle{
+    height: 100%;
+    width: 33%;
+}
+
+.footer-container .footer-left .title p{
+    font-size: 30px;
+    padding: 10px 0 0 50%;
+    text-decoration: underline;
+}
+
+.footer-container .footer-middle .title p{
+    font-size: 30px;
+    padding: 10px 0 0 0;
+    text-decoration: underline;
+}
+
+.footer-container .footer-right .title p{
+    font-size: 30px;
+    padding: 10px 50% 0 0;
+    text-decoration: underline;
+}
+
+.footer-container .footer-left{
+    height: 100%;
+    width: 33%;
+}
+
+.footer-left .footer-links li{
+    padding: 10px 0 0 50%;
+}
+
+.footer-middle .footer-links li{
+    padding: 15px 0 0 0;
+}
+
+.footer-right .footer-links li{
+    padding: 12px 50% 0 0;
+}
+
+.footer-middle p{
+    font-size: 15px;
+    padding: 3rem 0 0 0;
+}
+
+.footer-left .footer-links li a:hover {
+    color: gray;
+    font-size: 1.7rem;
+}
+
+.footer-middle .footer-links li a:hover {
+    color: gray;
+    font-size: 1.7rem;
+}
+
+.footer-right .footer-links li a:hover {
+    color: gray;
+    font-size: 1.7rem;
+}
+
+.footer-left .footer-links li a{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-middle .footer-links li a{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-right .footer-links li a{
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen  and (max-width: 940px) {
+    .footer-left .footer-links li a, .footer-middle .footer-links li a, .footer-right .footer-links li a{
+        font-size: 15px;
+    }
+
+    .footer-container .footer-left .title p, .footer-container .footer-middle .title p, .footer-container .footer-right .title p{
+        font-size: 20px;
+    }
+    
+    .footer-left .footer-links li a:hover, .footer-middle .footer-links li a:hover, .footer-right .footer-links li a:hover {
+        font-size: 1rem;
+    }
+
+    .footer-left .footer-links li{
+        padding: 5px 0 0 50%;
+    }
+    
+    .footer-middle .footer-links li{
+        padding: 5px 0 0 0;
+    }
+    
+    .footer-right .footer-links li{
+        padding: 5px 50% 0 0;
+    }
+
+}
+
+@media screen  and (max-width: 450px) {
+    .footer-container{
+        height: 45vh;
+    }
+
+    .footer-container .footer-left{
+        font-size: ;
+        width: 33%;
+        padding-right: 10%;
+    }
+
+    .footer-container .footer-left .title p{
+
+        padding: 10px 0 0 20%;
+    }
+
+    .footer-container .footer-sections .footer-right{
+        height: 100%;
+        width: 33%;
+        padding-left: 10%;
+    }
+
+    .footer-container .footer-left .title p{
+        padding: 10px 0 0 30%;
+    }
+    
+    .footer-container .footer-middle{
+        height: 100%;
+        width: 33%;
+    }
+
+    .footer-container .footer-right .title p{
+        padding: 10px 20% 0 0;
+    }
+
+    .footer-left .footer-links li a, .footer-middle .footer-links li a, .footer-right .footer-links li a{
+        font-size: 13px;
+    }
+
+    .footer-container .footer-left .title p, .footer-container .footer-middle .title p, .footer-container .footer-right .title p{
+        font-size: 17px;
+    }
+    
+    .footer-left .footer-links li a:hover, .footer-middle .footer-links li a:hover, .footer-right .footer-links li a:hover {
+        font-size: 0.8rem;
+    }
+
+}

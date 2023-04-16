@@ -1,0 +1,104 @@
+.contact-container{
+    height: 60vh;
+    background-color: rgb(56, 129, 178);
+    color: rgb(0, 0, 0);
+}
+
+.contact-container .contact-content{
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-container .contact-left{
+    height: 100%;
+    width: 50%;
+    padding-left: 10rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.contact-container .contact-right{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.contact-container .contact-content .contact-left h1{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(251, 253, 255);
+    padding: 2rem 0 0rem 0;
+    text-shadow: 2px 2px #000000;
+}
+
+.contact-container .contact-content .contact-left .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px #000000;
+    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.contact-container .contact-content .contact-left label{
+    padding-top: 1.3rem;
+    font-size: 1.5rem;
+}
+
+.contact-container .contact-content .contact-left textarea, input{
+    width: 30%;
+    box-shadow: 3px 4px 4px rgb(9, 9, 9);
+}
+
+.contact-container .contact-content .contact-left .btn{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 15%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: .5rem;
+
+}
+
+.contact-container img{
+    height: 450px;
+    margin-top: 2vh;
+    border-radius: 25%;
+    background-image: linear-gradient(rgb(19, 149, 230), rgb(73, 75, 74));
+    border: 6px solid rgb(24, 23, 23);
+
+}
+
+@media screen and (max-width: 940px){
+    
+    .contact-container img{
+        display: none;
+    }
+
+    .contact-container .contact-left{
+        width: 100%;
+        padding: 0px 0 0 25%;
+    }
+
+    .contact-container .contact-content .contact-left textarea, input{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .contact-container{
+        height: 80vh;
+    }
+
+    .contact-container .contact-content .contact-left textarea{
+        width: 100%;
+    }
+
+    .contact-container .contact-content .contact-left input{
+        width: 100%;
+    }
+
+}

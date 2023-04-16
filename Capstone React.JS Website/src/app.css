@@ -1,0 +1,22 @@
+/*This sets the hight of the app to 100vh*/
+.app{
+    height: 100vh;
+}
+
+/*This sets the hight of the app sections to 100vh and also makes scroll smoother */
+.sections{
+    width: 100%;
+    height: calc(100vh);
+    /* background-color: lightsalmon; */
+    position: relative;
+    top: 100px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+html {scroll-snap-type: y mandatory}
+ 
+/* gets rid of scrollbar for better visual affect */
+::-webkit-scrollbar{
+    display: none;
+}

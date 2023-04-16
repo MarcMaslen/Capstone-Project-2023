@@ -1,0 +1,15 @@
+.button-ctn{
+    font-family: 'Rubik', sans-serif;
+    padding: .4rem 1rem;
+    margin: 1rem 0;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    border-radius: 4px;
+  }
+  
+  .button-ctn:hover{
+    background-color: rgb(34, 39, 74);
+    color: rgb(255, 255, 255);
+  } 

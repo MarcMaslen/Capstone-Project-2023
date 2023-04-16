@@ -1,0 +1,90 @@
+.buy_now-container{
+    height: 100vh;
+    background-color: rgb(56, 129, 178);
+    color: white;
+}
+
+.buy_now-container .buy_now-content h1{
+    font-size: 4rem;
+    text-shadow: 2px 2px #000000;
+    font-weight: 600;
+
+    align-self: center;
+    text-align: center;
+}
+
+
+.buy_now-container .buy_now-content h2{
+    font-size: 2rem;
+    text-shadow: 2px 2px #000000;
+    font-weight: 400;
+    padding: 1rem 0 0 0;
+    align-self: center;
+    text-align: center;
+}
+
+
+.buy_now-container .game-content{
+    font-size: 10rem;
+    font-weight: 400;
+    padding: 2rem 0 0 0;
+    align-self: center;
+    text-align: center;
+}
+
+.buy_now-container img{
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20%;
+    padding: 0rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.buy_now-container .game-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+}
+
+.buy_now-container button{
+    font-family: 'Rubik', sans-serif;
+    padding: .4rem 1rem;
+    margin: 1rem 0;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    border-radius: 4px;
+  }
+  
+  .buy_now-container button:hover{
+    background-color: rgb(34, 39, 74);
+    color: rgb(255, 255, 255);
+  } 
+
+
+  @media screen and (max-width: 450px){
+
+    .buy_now-container .buy_now-content h1{
+        font-size: 2.5rem;
+        padding-top: 5px;
+    }
+
+    .buy_now-container .buy_now-content h2{
+        font-size: 1.6rem;
+    }
+
+    .buy_now-container img{
+        height: 300px;
+    }
+
+    .buy_now-container button{
+        padding: .4rem .5rem;
+      }
+    
+
+  }

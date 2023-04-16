@@ -1,0 +1,136 @@
+.hero{
+    background-color: rgb(56, 129, 178);
+    color: white;
+}
+
+.hero .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90vh;
+}
+
+/* current picture is a place holder */
+.hero .content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 6rem;
+}
+
+.hero h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px #000000;
+    font-size: 4rem;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-weight: 500;
+    padding: 1rem 0 0 0 ;
+}
+
+.hero h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px #000000;
+    font-weight: 400;
+    padding: 1rem 0 0 0 ;
+}
+
+.hero .blue{
+    color: #f8f8f8;
+    font-size: 1.6rem;
+}
+
+em { 
+                
+    background: linear-gradient(to left, #cd250b, #ccc42d 100%);
+    background-position: 0 100%;
+    font-style: normal;
+    font-size: 2rem;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
+
+}
+
+
+.right-pic{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+    margin-right: 5rem;
+}
+
+.hero .logo-icon{
+    font-size: 20rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    border: 10px solid rgb(24, 23, 23);
+    box-shadow: 10px 3px 9px rgb(45, 44, 44);
+    color: #c11919;
+    background-image: linear-gradient(white, blue);  
+}
+
+.hero button{
+    font-family: 'Rubik', sans-serif;
+    padding: .4rem 1rem;
+    margin: 1rem 0;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    border-radius: 4px;
+  }
+  
+  .hero button:hover{
+    background-color: rgb(34, 39, 74);
+    color: rgb(255, 255, 255);
+  } 
+
+
+@media screen and (max-width: 940px){
+    
+    .hero .content{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .right-pic{
+        display: none;
+        margin-right: -100rem;
+    }
+
+    .hero .content{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 7rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .hero .container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero h1{
+        font-size: 4rem;
+    }
+    .hero .content{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 4rem;
+        width: 70%;
+    }
+
+}

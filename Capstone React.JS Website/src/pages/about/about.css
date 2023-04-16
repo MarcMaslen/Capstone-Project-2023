@@ -1,0 +1,144 @@
+.about-container{
+    height: 100vh;
+    background-color: rgb(56, 129, 178);
+    color: white;
+}
+
+.about .title h1{
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px #000000;
+}
+
+.about-content h2{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    text-shadow: 2px 2px #000000;
+}
+
+.about-content{
+    flex: 33%;
+}
+
+/* Divider */
+.about-content1{
+    border-left: 6px solid rgb(11, 10, 10) ;
+    height: 70vh;
+    margin-top: 2rem;
+    border-radius: 15%;
+}
+
+.about-content p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+    margin: 2.5rem 25% 0 25%;
+}
+
+.about-container .main-info .picture{
+    display: flex;
+    justify-content: center;
+    font-size: 17rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.about-container .main-info .picture .logo-icon{
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 10px 3px 9px rgb(45, 44, 44);
+    background-image: linear-gradient(rgb(221, 2, 2), rgb(150, 145, 145));
+}
+
+.about-container .Button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.about_main-container{
+    display: flex;
+}
+
+
+
+.about_main-container .img{
+    display: block;
+    height: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    border-radius: 50%;
+    border: 7px solid rgb(0, 0, 0);
+    box-shadow: 10px 3px 9px rgb(45, 44, 44);
+}
+
+@media screen and (max-width: 1540px){
+    .about_main-container .img{
+        display: none;
+    }
+
+    .about-container .main-info .picture{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1240px){
+    
+    .about_main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content1{
+        display: none;
+    }
+
+    .about_main-container .img{
+        display: none;
+    }
+
+    .about-container .main-info .picture{
+        display: none;
+    }
+
+    .about .title h1{
+        padding-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .about-content h2{
+        font-size: 1.8rem;
+        margin-top: 2rem;
+
+    }
+
+    .about-content p{
+        font-size: 1.1rem;
+        margin: 2.5rem 15% 0 15%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .about-content h2{
+        font-size: 1.5rem;
+        margin-top: 1.7rem;
+    }
+
+    .about-container{
+        height: auto;
+    }
+}

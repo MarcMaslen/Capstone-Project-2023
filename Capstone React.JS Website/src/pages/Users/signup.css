@@ -1,0 +1,70 @@
+.auth-container{
+    height: 100vh;
+    background-color: rgb(56, 129, 178);
+    color: white;
+}
+
+.auth-wrapper{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 40%;
+}
+
+.auth-wrapper .auth-section{
+    display: flex;
+    border: 2px solid white;
+    background-color: rgb(10, 73, 116);
+    box-shadow: 10px 7px 9px rgb(45, 44, 44);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10%;
+}
+
+.auth-section h1{
+    padding-top: .8rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.auth-section h2{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.auth-section button{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 15%;
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+.auth-section input{
+    width: 40%;
+    padding: .5rem;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 450px){
+
+    .auth-wrapper{
+        width: 80%;
+    }
+    
+    .auth-section h1{
+        font-size: 2rem;
+    }
+
+    .auth-section input{
+        width: 70%;
+        font-size: 15px;
+        margin: 20px 0 0 0;
+    }
+
+}

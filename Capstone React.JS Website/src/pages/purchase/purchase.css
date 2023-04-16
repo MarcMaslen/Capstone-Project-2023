@@ -1,0 +1,157 @@
+.purchase-container{
+    height: 100vh;
+    background-color: rgb(56, 129, 178);
+    color: white;
+}
+
+.purchase-container .page-title h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    flex: auto;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 4rem;
+    text-shadow: 2px 2px #000000;
+}
+
+
+.purchase-container .page-title h2 {
+    font-size: 2rem;
+    text-shadow: 2px 2px #000000;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+    padding-top: 0rem;
+}
+
+.purchase-about{
+    display: flex;
+    margin: auto;
+    height: 80%;
+    width: 90%;
+}
+
+.purchase-about .half-container {
+    flex: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+.purchase-about .half-container2 {
+    flex: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+.purchase-about .half-container h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 1.5px 1.5px #000000;
+    margin: 20px;
+}
+
+.purchase-about .half-container p {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.purchase-about .half-container h3 {
+    font-size: 2rem;
+    margin-top: 5px;
+    text-shadow: 1.5px 1.5px #000000;
+    font-weight: 500;
+}
+
+.purchase-about .half-container2 img {
+    border-radius: 10%;
+    width: 70%;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+
+.btn-group .button {
+    background-color: #9d9b9e; 
+    border: 1px solid rgb(41, 42, 49);
+    color: white;
+    padding: 15px 22px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 3px 15px 0;
+  }
+
+  .btn-group .button:hover {
+    background-color: #2a2d2a;
+  }
+
+  .hero button{
+    font-family: 'Rubik', sans-serif;
+    padding: .4rem 1rem;
+    margin: 1rem 0;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    border-radius: 4px;
+  }
+  
+  .hero button:hover{
+    background-color: rgb(34, 39, 74);
+    color: rgb(255, 255, 255);
+  } 
+  
+  .purchase-container button{
+    background-color: #d7d9dd; /* Green */
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(29, 27, 27);
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 25px 3px 25px 0;
+  }
+
+  .purchase-container button:hover{
+    background-color: rgb(34, 39, 74);
+    color: rgb(255, 255, 255);
+  } 
+
+  @media screen and (max-width: 1500px){
+
+    .purchase-about .half-container p {
+        font-size: 1.2rem;
+    }
+
+    .purchase-about .half-container h1 {
+        font-size: 2rem;
+    }
+
+    .btn-group .button {
+        font-size: 14px;
+        margin: 5px 3px 5px 0;
+      }
+}
+
+@media screen and (max-width: 900px){
+
+    .purchase-about .half-container{
+        flex: 100%;
+    }
+
+    .purchase-about .half-container2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+
+    .purchase-container{
+        height: 130vh;
+
+    }
+}
